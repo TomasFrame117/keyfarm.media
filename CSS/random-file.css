@@ -1,0 +1,57 @@
+body {
+    background-color:  #413d3d;
+   
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    box-sizing: border-box;
+width: 350px;
+height: 200px;
+max-width: auto;
+max-height: auto;
+padding: 15;
+border-radius: 3%;
+background-color: rgb(153, 140, 123);
+justify-content: center;
+margin: auto;
+margin-top: 20%;
+grid-template-rows: auto;
+grid-template-columns: auto;
+border: 5px yellow;
+}
+
+.showbar {
+    border: yellow;
+    font-size: xx-large;
+    width: auto;
+    height: autopx;
+    background-color: whitesmoke;
+}
+
+.inputpar {
+    margin: 2px;
+    font-size: medium;
+}
+
+button {
+    height: 20px;
+    width: 50px;
+    margin: 4px;
+}
+
+.navnrekke {
+    display: flex;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    justify-content:center
+}
+
+.minst {
+    margin-right: 150px;
+}

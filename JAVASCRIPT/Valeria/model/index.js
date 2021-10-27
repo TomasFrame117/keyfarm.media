@@ -52,6 +52,28 @@ const setninger = [
 
         ]
     },
+    {
+        id: 1000,
+        text: 'You turn around and leave the resident',
+        options: [
+            {
+            text: 'Try again?',
+            nextText: 1,
+            },
+
+        ]
+    },
+    {
+        id: 1300,
+        text: 'You turn around and leave the resident',
+        options: [
+            {
+            text: 'Try again?',
+            nextText: 1,
+            },
+
+        ]
+    },
    
     //U.N.G.
 

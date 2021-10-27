@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/random-file.css">
+    <title>Random Number Generator</title>
+</head>
+<body>
+    <div class ="box">
+            <h1>Number Generator</h1>
+            <div class="navnrekke">
+                <p class="minst">Minste tall     </p>
+                <p class="størst">      Sørste tall</p>
+            </div>
+            <input class="inputbar" id="inputId" type="text">
+            <input class="inputbar" id="rangeId" type="text">
+            <button onclick="getRandomNumber()"></button>
+            <div class="showbar" id="showNumber"></div>
+        </div>
+        
+    </div>
+</body>
+<script>
+ 
+    function getRandomNumber() {
+        let start = document.querySelector("#inputId").value;
+        let range = document.querySelector("#rangeId").value;
+        let getRandom = Math.floor(Math.random() * (range - start) + start);
+        let showNumber = document.querySelector("#showNumber");
+        showNumber.innerHTML = getRandom;
+        console.log(getRandom)
+    }
+</script>
+</html>
