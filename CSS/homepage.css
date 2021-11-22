@@ -1,13 +1,11 @@
 body {
   margin: 0;
-    background-color: #333;
-    justify-content: center;
 }
 
 .topnav {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0);
     overflow: hidden;
 }
 
@@ -23,17 +21,19 @@ body {
 }
 
 .topnav a:hover {
-    background-color: aquamarine;
-    color: black;
+    background-color: rgb(202, 207, 205);
+    color:blue;
+    font-family: fantasy;
     
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
-    color: white;  
+    background-color: #d0ddd8;
+    color:rgb(218, 93, 93);
+    font-family: fantasy;
 }
 
-.slideshow-container {
+ .slideshow-container {
   max-width: auto;
   height: 20%vh;
   width: 80%vh;

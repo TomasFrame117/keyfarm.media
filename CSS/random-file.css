@@ -10,11 +10,11 @@ body {
 
 .box {
     box-sizing: border-box;
-width: 350px;
+width: 400px;
 height: 200px;
 max-width: auto;
 max-height: auto;
-padding: 15;
+padding: 15px;
 border-radius: 3%;
 background-color: rgb(153, 140, 123);
 justify-content: center;
@@ -23,25 +23,26 @@ margin-top: 20%;
 grid-template-rows: auto;
 grid-template-columns: auto;
 border: 5px yellow;
+transition: 2s;
 }
 
 .showbar {
     border: yellow;
     font-size: xx-large;
     width: auto;
-    height: autopx;
+    height: auto;
     background-color: whitesmoke;
 }
 
 .inputpar {
     margin: 2px;
-    font-size: medium;
 }
 
 button {
-    height: 20px;
-    width: 50px;
-    margin: 4px;
+    height: 25px;
+    width: 70px;
+    margin: 6px;
+    padding: 0;
 }
 
 .navnrekke {
@@ -54,4 +55,25 @@ button {
 
 .minst {
     margin-right: 150px;
+    color: rgb(0, 0, 0);
+    font: bold;
+}
+
+.back-btn {
+    float: inline-end;
+    font-size: larger;
+    margin-top:0;
+    padding: auto;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    border: 5px;
+    transition: width 8s, height 2s,;
+}
+
+.back-btn:hover {
+    width: 350px;
+    height: 100px;
+    font-size: 100px;
+    
 }
