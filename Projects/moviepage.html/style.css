@@ -11,7 +11,8 @@ body{
 }
 .topnav {
     display: flex;
-    justify-content: center;
+    align-content:flex-end;
+    justify-content:flex-start;
     background-color: #333;
     overflow: hidden;
 }
@@ -65,7 +66,7 @@ body{
     mix-blend-mode: screen;
     border-radius: 5px;
     display: grid;
-    justify-content: center;
+    justify-content: ;
     align-self: center;
 }
 
@@ -78,5 +79,7 @@ body{
     bottom: 2%;
     right: 45%;
     left: 4%;
-
 }
+
+.iconbtn{
+    background-color: ;
