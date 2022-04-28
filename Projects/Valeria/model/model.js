@@ -15,7 +15,7 @@ const setninger = [
     {
         id: 1.1,//identifyer for each textNodes in the array
         text: 'The scenery gives a relaxing vibe, as its slowly seduce you forward into its center, where more is in store for you. For a minute you hesitate, Is this truly what you want to do?',
-        audio: '/JAVASCRIPT/Valeria/audio/bakgrunntest.mp3',
+        audio: '/Project/Valeria/audio/bakgrunntest.mp3',
         options: [
             {
             
@@ -55,7 +55,7 @@ const setninger = [
     {
         id: 3.1,
         text: 'Tall and skinny with sharp edges. A glowing dark-red beam out from her curly hair. Two glooming eyes of wonder comming closer and closer, in calm clanks for her heals meeting the ground.',
-        audio: '/JAVASCRIPT/Valeria/audio/wlaking-high-heels.mp3',
+        audio: '/Project/Valeria/audio/wlaking-high-heels.mp3',
         options: [
             {
              text: 'Hello?',
@@ -108,7 +108,7 @@ const setninger = [
     {
         id: 4,
         text: 'She smerks while walking closer',
-        audio: '/JAVASCRIPT/Valeria/audio/le.mp3',
+        audio: '/Project/Valeria/audio/le.mp3',
         options: [
             {
              text: 'Next',
@@ -190,7 +190,7 @@ const setninger = [
     {
         id: 5.5,
         text: '"Hum a gjentle sole, like wise"',
-        audio: '/JAVASCRIPT/Valeria/audio/le.mp3',
+        audio: '/Project/Valeria/audio/le.mp3',
         options: [
             {
              text: 'Next',
