@@ -70,7 +70,7 @@ body {
     justify-content: center;
 }
 
-  .btn {
+.btn {
     background-color: #cc9e5d(200, 100%, 50%);
     border: 1px solid hsl(200, 100%, 30%);
     border-radius: 5px;
